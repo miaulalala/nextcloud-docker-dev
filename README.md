@@ -53,6 +53,8 @@ docker run --rm -p 8080:80 -e SERVER_BRANCH=v24.0.1 -v /tmp/server:/var/www/html
 ```
 ## Simple master setup
 
+Please make sure you have ```docker-compose``` installed before setup.
+
 The easiest way to get the setup running the ```master``` branch is by running the ```bootstrap.sh``` script:
 ```
 git clone https://github.com/juliushaertl/nextcloud-docker-dev
